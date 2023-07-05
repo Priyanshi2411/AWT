@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 10px 20px;
+           }
+           h1{
+            margin-left: 62px;
+           }
+           #form{
+            font-size: 20px;
+           }
+           input{
+            border: 1px solid blue;
+            border-radius: 4px;
+            font-size: 15px; 
+           }
+    </style>
+</head>
+<body>
+    <form action="\" id="form">
+        <h1>Log in</h1>
+        <div>
+            <label >User Name : 
+            <input id="Uname" type="text" />
+            <span id="UnameErr" class="error-message"></span>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label >Password : 
+            <input id="Password" type="password" />
+            <span id="passwordErr" class="error-message"></span>
+            </label>
+        </div>
+        <br>
+        <div>
+            <button id="login">Log in</button>
+        </div>
+    </form>
+</body>
+</html>
